@@ -14,10 +14,11 @@ docker build -t user-data .
  kubectl logs <pod-name>
 ```
 
-**Step3 k8s Service**
+**Step3: k8s Service**
 ```agsl
  kubectl apply -f k8s-service.yaml
  kubectl get service
+ kubectl get all
 ```
 
 
